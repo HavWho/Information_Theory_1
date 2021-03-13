@@ -1,70 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b257b6a-3996-4614-93da-043f6af96e62" name="Default Changelist" comment="" />
+    <list default="true" id="6b257b6a-3996-4614-93da-043f6af96e62" name="Default Changelist" comment="Rail Fence algorithm">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Rails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1owZRGvjhU3sw6kCyvgc31rRjf9" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -77,6 +45,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -102,5 +75,71 @@
       <updated>1614199603896</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rail Fence algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rail Fence algorithm" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1615664252582">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1615664252582" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1615664437628">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615664437628" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1615664437627">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1615664437627" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1615664437627">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1615664437627" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1615664437627">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1615664437627" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1615637287288">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1615637287288">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1615637287288">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1615637287288">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1615635468301">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1615635468301" />
+    <state x="475" y="209" key="git4idea.merge.GitPullDialog" timestamp="1614291748107">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="475" y="209" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1614291748107" />
+    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog" timestamp="1614291786192">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog/0.0.1536.832@0.0.1536.832" timestamp="1614291786192" />
+    <state x="360" y="38" key="new project wizard" timestamp="1615628029571">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="360" y="38" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1615628029571" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1615628496086">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1615628496086" />
+    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1615636290389">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1615636290389" />
   </component>
 </project>
