@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b257b6a-3996-4614-93da-043f6af96e62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Column.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Information_Theory_1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Information_Theory_1/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,42 +99,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="Main class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1615664470005">
+    <state x="615" y="22" key="CommitChangelistDialog2" timestamp="1615752107452">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1615664470005" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1615664583888">
+    <state x="615" y="22" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1615752107452" />
+    <state x="616" y="311" key="Github.ShareDialog" timestamp="1615665050126">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615664583888" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1615664583888">
+    <state x="616" y="311" key="Github.ShareDialog/0.0.1536.832@0.0.1536.832" timestamp="1615665050126" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1615752107472">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1615664583888" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1615664583888">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615752107472" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1615752107472">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1615664583888" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1615664583888">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1615752107472" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1615752107472">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1615664583888" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1615637287288">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1615752107472" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1615752107472">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1615637287288">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1615752107472" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1615667489137">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1615637287288">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615667489137" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1615667489137">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1615637287288">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1615667489137" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1615667489137">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1615637287288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1615667489137" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1615667489137">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1615667489137" />
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1615635468301">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -144,10 +151,14 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="475" y="209" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1614291748107" />
-    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog" timestamp="1614291786192">
+    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog" timestamp="1615665033497">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog/0.0.1536.832@0.0.1536.832" timestamp="1614291786192" />
+    <state x="574" y="282" key="git4idea.rebase.GitRebaseDialog/0.0.1536.832@0.0.1536.832" timestamp="1615665033497" />
+    <state x="510" y="159" key="git4idea.rebase.GitRebaseEditor" timestamp="1615665036665">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="510" y="159" key="git4idea.rebase.GitRebaseEditor/0.0.1536.832@0.0.1536.832" timestamp="1615665036665" />
     <state x="360" y="38" key="new project wizard" timestamp="1615628029571">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -160,5 +171,8 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1615636290389" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Information_Theory_1$Main.ic" NAME="Main Coverage Results" MODIFIED="1615667605674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
