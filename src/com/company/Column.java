@@ -65,7 +65,7 @@ public class Column {
         String EncryptBuffer = toEncrypt;
 
         while (EncryptBuffer.length() % col != 0){
-            EncryptBuffer = EncryptBuffer.concat(String.valueOf('&'));
+            EncryptBuffer = EncryptBuffer.concat(String.valueOf(' '));
         }
 
         int index = 0;
@@ -88,5 +88,47 @@ public class Column {
                 resultText = resultText.concat(String.valueOf(outArray[j][number]));
         }
         return resultText;
+    }
+
+    public static String DecryptColumn(String text, String key){
+
+        int col = key.length();
+
+        int[] keyNumArr = GetKeyDecrypt(key);
+
+        int row = text.length() / col;
+        outArray = new char[row][col];
+        int m = 0;
+        int index = 0;
+        while (index < text.length()){
+            int n = 0;
+            while (n < text.length() / col){
+                outArray[n][m] = text.charAt(index);
+                n++;
+                index++;
+            }
+            m++;
+        }
+
+        char[][] outArray2 = new char[row][col];
+
+        for (int i = 0; i < col; i++)  // переставляем столбцы местами
+        {
+            int number = keyNumArr[i];
+            for (int j = 0; j < row; j++)
+            {
+                outArray2[j][i] = outArray[j][number];
+            }
+        }
+
+        String resultText = "";
+        for (int i = 0; i < row; i++) //выводим, читая построчно
+        {
+            for (int j = 0; j < col; j++)
+            {
+                resultText += outArray2[i][j];
+            }
+        }
+        return resultText.replaceAll("\\*", "");
     }
 }
