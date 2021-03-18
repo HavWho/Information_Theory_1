@@ -41,6 +41,8 @@ public class Main {
 
         boolean flag = true;
 
+        System.out.print("Input matrix size for Lattice method: ");
+
         do {
             int n;
             n = ScannerInt2.nextInt();
