@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b257b6a-3996-4614-93da-043f6af96e62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lattice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Information_Theory_1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Information_Theory_1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Column.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Vigener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vigener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,56 +97,99 @@
       <option name="project" value="LOCAL" />
       <updated>1615752144512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Column algorithm has been fixed">
+      <created>1616063619470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616063619470</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rotating algorithm has been added">
+      <created>1616074633700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616074633700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Vigener algorithm">
+      <created>1616082742724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616082742724</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Main class with main function">
+      <created>1616082771855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616082771855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main class with main function">
+      <created>1616094140609</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616094140609</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rail Fence algorithm" />
     <MESSAGE value="Main class" />
     <MESSAGE value="Column algorithm needs to be fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Column algorithm needs to be fixed" />
+    <MESSAGE value="Column algorithm has been fixed" />
+    <MESSAGE value="Rotating algorithm has been added" />
+    <MESSAGE value="Vigener algorithm" />
+    <MESSAGE value="Main class with main function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main class with main function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="615" y="22" key="CommitChangelistDialog2" timestamp="1615752143884">
+    <state x="615" y="22" key="CommitChangelistDialog2" timestamp="1616094140092">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="615" y="22" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1615752143884" />
+    <state x="615" y="22" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1616094140092" />
     <state x="616" y="311" key="Github.ShareDialog" timestamp="1615665050126">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="616" y="311" key="Github.ShareDialog/0.0.1536.832@0.0.1536.832" timestamp="1615665050126" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616063476249">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616178175397">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1616063476249" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616063476248">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1616178175397" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616178175397">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1616063476248" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616063476248">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1616178175397" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616178175397">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1616063476248" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616063476249">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1616178175397" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616178175397">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1616063476249" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1615752170496">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1616178175397" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1616168203288">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1615752170496" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1615752170496">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1616168203288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1616168203288">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1615752170496" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1615752170496">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1616168203288" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1616168203287">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1615752170496" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1615752170496">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1616168203287" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1616168203288">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1615752170496" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1616168203288" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1616105006425">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1616105006425" />
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1615635468301">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -176,10 +218,21 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1615628496086" />
-    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1615636290389">
+    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1616082080133">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1615636290389" />
+    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1616082080133" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Vigener.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Information_Theory_1$Main.ic" NAME="Main Coverage Results" MODIFIED="1615667605674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

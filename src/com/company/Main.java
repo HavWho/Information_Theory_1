@@ -43,31 +43,32 @@ public class Main {
 
         System.out.print("Input matrix size for Lattice method: ");
 
-        do {
-            int n;
-            n = ScannerInt2.nextInt();
+        //do {
+            //int n;
+            //n = ScannerInt2.nextInt();
 
-            if (n % 2 == 0 && n * n >= StringForEncrypt.length()) {
+            //if (n % 2 == 0 && n * n >= StringForEncrypt.length()) {
 
-                flag = false;
+               // flag = false;
 
-                int[][] MatrixForLattice = new int[n][n];
-                MatrixForLattice = latticeInput(n);
+                //int[][] MatrixForLattice = new int[n][n];
+                //MatrixForLattice = latticeInput(n);
 
-                System.out.println("Rotating Lattice encryption method: ");
-                System.out.println(EncryptLattice(StringForEncrypt, n, MatrixForLattice));
-                System.out.println("decryption: ");
-                System.out.println(DecryptLattice(EncryptLattice(StringForEncrypt, n, MatrixForLattice), n, MatrixForLattice));
-            } else {
-                System.out.println("Incorrect input!");
-            }
-        } while(flag);
+                //System.out.println("Rotating Lattice encryption method: ");
+                //System.out.println(EncryptLattice(StringForEncrypt, n, MatrixForLattice));
+                //System.out.println("decryption: ");
+                //System.out.println(DecryptLattice(EncryptLattice(StringForEncrypt, n, MatrixForLattice), n, MatrixForLattice));
+            //} //else {
+                //System.out.println("Incorrect input!");
+            //}
+        //} while(flag);
 
         System.out.println("\n");
 
         System.out.println("Vigener encryption method: ");
-        System.out.println(EncryptVigener(StringForEncrypt, StringKey));
+        Vigener vigener = new Vigener(ScannerString.nextLine(), StringForEncrypt);
+        System.out.println(vigener.EncryptVigener(StringForEncrypt));
         System.out.println("decryption: ");
-        System.out.println(DecryptVigener(EncryptVigener(StringForEncrypt, StringKey), StringKey));
+        System.out.println(vigener.DecryptVigener(vigener.EncryptVigener(StringForEncrypt), vigener.key));
     }
 }

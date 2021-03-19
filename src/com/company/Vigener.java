@@ -2,6 +2,13 @@ package com.company;
 
 public class Vigener {
 
+    String key, text;
+
+    public Vigener(String key, String toEncrypt){
+        this.key = key;
+        this.text = toEncrypt.replaceAll("\\s+","");
+    }
+
     private static final String Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     private static String GenerateSecretKey(String StringForWork, String key){
@@ -9,14 +16,15 @@ public class Vigener {
         StringBuilder resultKey = new StringBuilder();
 
         String withoutSpacesString = StringForWork.replaceAll("\\s+", "");
+        String keyBuffer = key.replaceAll("\\s+", "");
 
         for (int i = 0; i < StringForWork.length(); i++){
-            if (i >= key.length()){
-                int CharIndex = (i - key.length()) % withoutSpacesString.length();
+            if (i >= keyBuffer.length()){
+                int CharIndex = (i - keyBuffer.length()) % withoutSpacesString.length();
                 resultKey.append(withoutSpacesString.charAt(CharIndex));
             }
             else{
-                resultKey.append(key.charAt(i));
+                resultKey.append(keyBuffer.charAt(i));
             }
         }
 
@@ -32,17 +40,17 @@ public class Vigener {
         return Alphabet.charAt(ind);
     }
 
-    public static String EncryptVigener(String toEncrypt, String key){
+    protected String EncryptVigener(String toEncrypt){
 
         StringBuilder resultText = new StringBuilder();
 
         int AlphabetLength = Alphabet.length();
 
-        String newKey = GenerateSecretKey(toEncrypt, key);
+        String newKey = GenerateSecretKey(this.text, this.key);
 
-        for (int i = 0; i < toEncrypt.length(); i++)
-        {
-            int p = GetIndexFromAlphabet(toEncrypt.charAt(i));
+        for (int i = 0; i < this.text.length(); i++){
+
+            int p = GetIndexFromAlphabet(this.text.charAt(i));
             int k = GetIndexFromAlphabet(newKey.charAt(i));
             int charIndex = (p + k) % AlphabetLength;
             resultText.append(GetCharFromAlphabet(charIndex));
@@ -52,7 +60,7 @@ public class Vigener {
 
     }
 
-    public static String DecryptVigener(String toDecrypt, String key){
+    protected String DecryptVigener(String toDecrypt, String key){
 
         StringBuilder resultText = new StringBuilder();
 
@@ -60,15 +68,13 @@ public class Vigener {
 
         String NewKey = "";
 
-        for (int i = 0; i < toDecrypt.length(); i++){
-            int c = GetIndexFromAlphabet(toDecrypt.charAt(i));   //Получение индекса символа шифротекста
+        for (int i = 0; i < this.text.length(); i++){
+            int c = GetIndexFromAlphabet(toDecrypt.charAt(i));
             int k;
-            if (i >= key.length())
-            {
+            if (i >= key.length()){
                 k = GetIndexFromAlphabet(resultText.charAt((i - key.length())));
             }
-            else
-            {
+            else{
                 k = GetIndexFromAlphabet(key.charAt(i));
             }
             NewKey += GetCharFromAlphabet(k);
